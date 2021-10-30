@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #eff2f5;
+}
+
 .header {
     display: flex;
     padding: 15px 20px;
@@ -89,4 +93,53 @@
     align-items: center;
 }
  
+.sideBarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
 
+.sideBarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sideBarRow h4,h6{
+    margin-left: 20px;
+}
+
+.sideBarRow .fa-user-circle {
+    color: yellowgreen;
+    font-size: x-large;
+}
+
+.sideBarRow .fa-image {
+    color: lightskyblue;
+    font-size: x-large;
+}
+
+.sideBarRow .fa-archive {
+    color: red;
+    font-size: x-large;
+}
+
+.sideBarRow .fa-bookmark {
+    color: purple;
+    font-size: x-large;
+}
+
+.sideBarRow .fa-flag {
+    color: orangered;
+    font-size: x-large;
+}
+
+.sideBarRow .fa-user-friends {
+    color: rgb(53, 53, 236);
+    font-size: x-large;
+}
+
+.sideBarRow .fa-cog {
+    color: grey;
+    font-size: x-large;
+}
